@@ -10,6 +10,8 @@
  * readonly assignable only at the moment of creation property or in the constructor;
  */
 
+export {};
+
 class Person {
   // private firstName: string;
   // private lastName: string;

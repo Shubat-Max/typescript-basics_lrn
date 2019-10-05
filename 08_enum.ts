@@ -1,3 +1,5 @@
+export {};
+
 enum DaysOfTheWeek {
   SUN = 100,
   MON,

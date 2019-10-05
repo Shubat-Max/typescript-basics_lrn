@@ -4,7 +4,9 @@
  * Typescript lets you to see an errors you possibly made before actual compilation.
  */
 
-let a: number; // Can only store number values (1, 1.2, 2, ...)
+export {};
+
+let a: number | undefined; // Can only store number values (1, 1.2, 2, ...)
 a = 10;
 // a = false;                                   // => <<TS2322: Type 'false' is not assignable to type 'number'>>
 
@@ -20,7 +22,7 @@ foo = undefined;
 let numArr: number[]; // Array of numbers
 numArr = [1, 2, 3];
 numArr.push(1);
-// numArr.push('anytext');                          // => <<TS2345: Argument of type '"anytext"' is not assignable to parameter of type 'number'>>
+// numArr.push('anytext');                      // => <<TS2345: Argument of type '"anytext"' is not assignable to parameter of type 'number'>>
 a = numArr.pop(); // Perfectly works since variable is a number and the element of the array is a number also
 // b = numArr.pop();                            // => <<TS2322: Type 'number' is not assignable to type 'boolean'>>
 

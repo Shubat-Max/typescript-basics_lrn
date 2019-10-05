@@ -4,11 +4,12 @@
  * JS allows to create and implementation of inheritance and polymorphism
  */
 
+export {};
 
 // Class Person that contains few attributes and methods
 class Person {
-  firstName: string = '';
-  lastName: string = '';
+  firstName: string = "";
+  lastName: string = "";
   wake(): void {
     console.log("Waking up...");
   }
@@ -24,7 +25,7 @@ class Programmer extends Person {
     console.log("Hello, World!");
   }
 
-  greetLikeAPerson():void {
+  greetLikeAPerson(): void {
     super.greet();
   }
 }
@@ -33,7 +34,6 @@ let coder: Programmer = new Programmer();
 coder.wake();
 coder.greet();
 coder.greetLikeAPerson();
-
 
 // Polymorphysm example
 // We can only use methods and attributes defined in class Person or overwritten inside class Programmer

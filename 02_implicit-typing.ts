@@ -2,6 +2,8 @@
  * TypeScript can assign types implicitly based on initial value given
  */
 
+export {};
+
 let a = 10;
 // a = false; // <<TS2322: Type 'false' is not assignable to type 'number'>>
 

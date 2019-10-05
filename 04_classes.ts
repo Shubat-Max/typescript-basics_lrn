@@ -4,6 +4,8 @@
  *
  */
 
+export {};
+
 class Person {
   // If field is assigned only in the constructor and can be made readonly
   private firstName: string;

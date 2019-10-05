@@ -3,6 +3,8 @@
  *     this might provide your script with some flexibility when needed
  */
 
+export {};
+
 let a: any;
 
 a = 10;
