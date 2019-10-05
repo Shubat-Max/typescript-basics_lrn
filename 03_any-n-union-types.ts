@@ -7,7 +7,7 @@ let a: any;
 
 a = 10;
 a = true;
-a = 'any string';
+a = "any string";
 
 /**
  * TypeScript also has possibility to make type checking for more then 1 type using pipe symbol << | >>
@@ -16,4 +16,4 @@ a = 'any string';
 let b: number | string;
 b = 10;
 // b = false; // => <<TS2322: Type 'false' is not assignable to type 'string | number'. Alt+Shift+Enter Alt+Enter>>
-b = 'any string';
+b = "any string";
