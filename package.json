@@ -1,0 +1,26 @@
+{
+  "name": "typescript-basics_lrn",
+  "version": "1.0.0",
+  "description": "Learning TypeScript basics",
+  "main": "14_lodash.ts",
+  "scripts": {
+    "start": "tsc 14_lodash.ts && node 14_lodash.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubat-Max/typescript-basics_lrn.git"
+  },
+  "author": "Shubat Maksim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubat-Max/typescript-basics_lrn/issues"
+  },
+  "homepage": "https://github.com/Shubat-Max/typescript-basics_lrn#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.141"
+  }
+}
